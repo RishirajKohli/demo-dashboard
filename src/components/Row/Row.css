@@ -1,0 +1,8 @@
+.table-row {
+  height: 40px;
+  border-bottom: solid 1px rgb(107, 107, 107);
+  background-color: rgb(237, 237, 241);
+  color: rgb(32, 15, 15);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

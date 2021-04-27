@@ -2,10 +2,10 @@ import React from "react";
 import "./Header.css";
 import { logOutUser } from "../../utils";
 
-const Header = ({ isAuthenticated, setIsAuthenticatedUser }) => {
+const Header = ({ isAuthenticated, setisAuthenticated }) => {
   const onLogoutCLick = () => {
     logOutUser();
-    setIsAuthenticatedUser(false);
+    setisAuthenticated(false);
   };
   return (
     <header className="top-header">

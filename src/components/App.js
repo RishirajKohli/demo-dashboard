@@ -17,6 +17,7 @@ const App = () => {
       <Switch>
         <Route
           path="/"
+          exact
           render={(props) =>
             !isAuthenticated ? (
               <AuthPage
@@ -29,7 +30,7 @@ const App = () => {
           }
         ></Route>
         <Route
-          path="dashboard"
+          path="/dashboard"
           render={(props) =>
             isAuthenticated ? (
               <Dashboard {...props}></Dashboard>
