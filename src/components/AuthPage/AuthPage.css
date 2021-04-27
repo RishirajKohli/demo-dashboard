@@ -1,0 +1,12 @@
+.form {
+  width: 80%;
+  border: 2px solid gray;
+  border-radius: 2px;
+  padding: 16px;
+  margin: 40px auto;
+  box-shadow: 2px 2px 2px gray;
+}
+.form-control {
+  padding: 8px;
+  margin: 8px auto;
+}
