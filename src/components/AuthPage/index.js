@@ -37,9 +37,10 @@ const AuthPage = ({ setisAuthenticated }) => {
   };
   return (
     <div>
-      <div className="login"></div>
-      <button onClick={() => setSubmissionType("login")}>Login</button>
-      <button onClick={() => setSubmissionType("signup")}>Signup?</button>
+      <div className="login">
+        <button onClick={() => setSubmissionType("login")}>Login</button>
+        <button onClick={() => setSubmissionType("signup")}>Signup?</button>
+      </div>
       {submmissionType === "login" ? (
         <LoginForm onLoginSubmit={onLoginSubmit}></LoginForm>
       ) : (
